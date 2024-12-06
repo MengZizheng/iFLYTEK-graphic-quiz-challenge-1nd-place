@@ -143,3 +143,12 @@ with open("../prediction_result/result.json", "w", encoding="utf-8") as f:
         submit_json.append(json_str)
     json.dump(submit_json, f, ensure_ascii=False, indent=4)
 ```
+
+## 7. 算力平台
+
+为了高效训练模型，我们使用了 [onethingai](https://onethingai.com/invitation?code=wGZHFckZ) 提供的算力平台。该平台提供了强大的GPU资源，使我们能够在较短的时间内完成模型训练和微调。
+
+## 8. 贡献者
+
+- **团队名称**：小老正
+- **成员**：[孟子正]
